@@ -1,34 +1,42 @@
 body{
-	margin: 0px;
-	background-color: black;
+margin: 0px;
+padding: 0px;
+background-color: black;
 }
-header{
-	background-color: skyblue;
-	color: #f50a0a;
-	width: 100%;
-	padding: 38px;
-	height: 81px;
-	margin: -11px;
+.header{
+	background-color: blue;
+	padding: 44px;
+	text-align: center;
 	font-size: 80px;
-	text-align:center;
-	font-family:cursive;
+	font-family: cursive;
+	color: #fff;
 }
-nav{
-	margin: -11px;
-	display: grid;
-	width: 100px;
+.container{
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
 
 }
+nav{
+	margin: 176px;
+	display: grid;
+	width:92px;
+	padding: 144px;
+	padding-top: 175px;
+	margin-left: -147px;
+}
 nav ul{
-	margin: 11px;
-	margin-left:1px;
+	margin: -66px;
+	margin-left:2px;
 	background-color:#fff;
-	height: 594px;
+	height: 445px;
 	text-align: left;
-	line-height:5;
+	line-height:3;
+	margin-top: -422px;
 }
 nav a{
-	color: black;
+	color:black ;
+
 	float: left;
 	font-size: x-large;
 	font-family: cursive;
@@ -37,20 +45,12 @@ nav a{
 a:hover{
 	background-color: gold;
 }
-.left-column{
-	background-color: black;
-	width:1218px;
-	float: right;
-	padding: 236px;
-	margin-top: -594px;
-	padding-left: 75px;
-	margin-right: -69px;
-	text-align: center;
-
-}
 p{
-	font-size: 40px;
+	font-size: 17px;
 	color:#fff;
+	text-align: center;
+	font-family: cursive;
+	margin-inline-start: 66px;
 }
 h3{
 	color: #fff;
@@ -58,13 +58,29 @@ h3{
 	font-family: cursive;
 }
 form{
-	background-color: black;
-	width: 1218px;
-	text-align:center;
-	padding: 236px;
-	color: #fff;
-	float: left;
-	margin-top: -594px;
-	padding-left: 75px;
-	margin-right: -69px;
+    padding-right: 623px;
+    padding-inline-start:86px;
+    height: 21px;
+    margin: 76px;
 }
+img{
+	width:470px;
+}
+.image{
+	margin-top: -650px;
+
+}
+.footer{
+	background-color: blue;
+	padding: 15px;
+}
+h4{
+	margin-right: 143px;
+	margin-left: 16px;
+	font-size: 20px;
+
+}
+h1{
+	padding: 0px;
+}
+
