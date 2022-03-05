@@ -2,14 +2,20 @@ body{
 margin: 0px;
 padding: 0px;
 background-color: black;
+margin-inline-start: px;
+margin-inline-end: px;
+padding-inline-end: 101px;
 }
 .header{
 	background-color: blue;
-	padding: 44px;
+	padding: 0px;
 	text-align: center;
 	font-size: 80px;
 	font-family: cursive;
 	color: #fff;
+	margin: -12px;
+	margin-left: -7px;
+	margin-right: -180px;
 }
 .container{
 	color: #fff;
@@ -18,14 +24,19 @@ background-color: black;
 
 }
 nav{
-	margin: 176px;
+	margin: 257px;
 	display: grid;
-	width:92px;
-	padding: 144px;
-	padding-top: 175px;
-	margin-left: -147px;
+	width:43px;
+	padding: 161px;
+	padding-top: 218px;
+	margin-left: -175px;
 }
-nav ul{
+nav ul {
+	width: 70px;
+	padding:21px;
+	margin-top: -67px;
+}
+nav ul li{
 	margin: -66px;
 	margin-left:2px;
 	background-color:#fff;
@@ -33,54 +44,127 @@ nav ul{
 	text-align: left;
 	line-height:3;
 	margin-top: -422px;
+	display: box;
 }
 nav a{
 	color:black ;
-
 	float: left;
 	font-size: x-large;
 	font-family: cursive;
 	text-decoration: none;
+	border-style: solid;
+	border-width: thick;
 }
 a:hover{
 	background-color: gold;
 }
 p{
-	font-size: 17px;
-	color:#fff;
+	font-size: 20px;
+	color: greenyellow;
 	text-align: center;
 	font-family: cursive;
-	margin-inline-start: 66px;
+	margin-inline-start: 150px;
+	background-color: red;
 }
 h3{
-	color: #fff;
+	color: deepskyblue;
 	font-size: 30px;
 	font-family: cursive;
+	text-align: left;
+	padding-inline-start: 268px;
 }
 form{
     padding-right: 623px;
     padding-inline-start:86px;
     height: 21px;
     margin: 76px;
+    margin-inline-start: 87px;
+    margin-inline-end: 98px;
 }
 img{
-	width:470px;
+	width:371px;
+	margin-left: 690px;
+	margin-top: -678px;
+	margin-bottom: -124px;
+	height: 314px;
 }
 .image{
-	margin-top: -650px;
+	margin-top: -656px;
+
 
 }
 .footer{
 	background-color: blue;
-	padding: 15px;
+	padding: 29px;
+	color: #fff;
+	text-align: center;
+	margin-left: 78px;
+	margin-right: 66px;
+	margin: 504px;
+	margin-inline-start: -33px;
+	margin-inline-end: -185px;
 }
 h4{
 	margin-right: 143px;
 	margin-left: 16px;
-	font-size: 20px;
+	font-size: 15px;
+	font-family: cursive;
 
 }
 h1{
 	padding: 0px;
 }
+section{
+	font-size: 18px;
+	padding-inline-start: 108px;
+	text-align:center;
+	float: left;
+	display: grid;
+	margin: 58px;
+}
+h5{
+	text-align: left;
+	margin: 12px;
+	padding-inline-start: 577px;
+	color: #fff;
+	display: inline-grid;
+}
+h6{
+	text-align:left;
+	margin: 12px;
+     padding-inline-start: -43px;
+     color: red;
+     font-size: 24px;
+}
+h7{
+	padding: 31px;
+	margin: -12px;
+}
+h11{
+	text-align: center;
+	font-size: 15px;
+	padding-left: 187px;
+}
+.left-column{
+	display: inline-grid;
+	text-align: center;
+}
+header{
+	float: left;
+	text-align: center;
+	color: deepskyblue;
+	padding-inline-end: 638px;
+	padding-inline-start: 4px;
+	font-size: 25px;
+	font-family: cursive;
+}
+h9{
+	display: inline-grid;
+	font-size: 15px;
+	text-align: center;
+	margin-top: -24px;
+	margin-right: -121px;
+	margin-left: 27px;
+	margin-inline-start: 14px;
 
+}
