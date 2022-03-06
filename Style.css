@@ -87,9 +87,13 @@ img{
 	margin-top: -678px;
 	margin-bottom: -124px;
 	height: 314px;
+	padding-bottom: 448px;
 }
-.image{
-	margin-top: -656px;
+image{
+	margin-top: -503px;
+	padding-left: 330px;
+	margin-inline-start: -471px;
+	image-rendering: pixelated;
 
 
 }
@@ -112,7 +116,7 @@ h4{
 
 }
 h1{
-	padding: 0px;
+padding: 0px;
 }
 section{
 	font-size: 18px;
